@@ -16,7 +16,13 @@ export const graphOptions = {
   },
   edges: {
     color: '#256ABD',
-    width: 2
+    width: 2,
+    font: {
+      size: 25, // Adjust the size of the edge labels
+      color: '#DA753C',
+      align: 'horizontal',
+      fontWeight: 300
+    },
   },
   height: "100%"
 };
