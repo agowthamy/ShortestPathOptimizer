@@ -1,0 +1,138 @@
+{
+    "nodes": [
+        {
+            "id": "A",
+            "label": "A",
+            "color": {
+                "border": "#256ABD",
+                "background": "#256ABD"
+            },
+            "borderWidth": 1
+        },
+        {
+            "id": "B",
+            "label": "B",
+            "color": {
+                "border": "#256ABD",
+                "background": "#256ABD"
+            },
+            "borderWidth": 1
+        },
+        {
+            "id": "C",
+            "label": "C",
+            "color": {
+                "border": "#256ABD",
+                "background": "#256ABD"
+            },
+            "borderWidth": 1
+        },
+        {
+            "id": "D",
+            "label": "D",
+            "color": {
+                "border": "#256ABD",
+                "background": "#256ABD"
+            },
+            "borderWidth": 1
+        },
+        {
+            "id": "E",
+            "label": "E",
+            "color": {
+                "border": "#256ABD",
+                "background": "#256ABD"
+            },
+            "borderWidth": 1
+        },
+        {
+            "id": "F",
+            "label": "F",
+            "color": {
+                "border": "#256ABD",
+                "background": "#256ABD"
+            },
+            "borderWidth": 1
+        }
+    ],
+    "edges": [
+        {
+            "id": 1,
+            "from": "A",
+            "to": "B",
+            "label": "4"
+        },
+        {
+            "id": 2,
+            "from": "B",
+            "to": "A",
+            "label": "4"
+        },
+        {
+            "id": 3,
+            "from": "A",
+            "to": "C",
+            "label": "6"
+        },
+        {
+            "id": 4,
+            "from": "C",
+            "to": "A",
+            "label": "6"
+        },
+        {
+            "id": 5,
+            "from": "B",
+            "to": "F",
+            "label": "2"
+        },
+        {
+            "id": 6,
+            "from": "F",
+            "to": "B",
+            "label": "2"
+        },
+        {
+            "id": 7,
+            "from": "E",
+            "to": "B",
+            "label": "2"
+        },
+        {
+            "id": 8,
+            "from": "E",
+            "to": "F",
+            "label": "3"
+        },
+        {
+            "id": 9,
+            "from": "F",
+            "to": "E",
+            "label": "3"
+        },
+        {
+            "id": 10,
+            "from": "E",
+            "to": "D",
+            "label": "4"
+        },
+        {
+            "id": 11,
+            "from": "D",
+            "to": "E",
+            "label": "4"
+        },
+        {
+            "id": 12,
+            "from": "D",
+            "to": "C",
+            "label": "8"
+        },
+        {
+            "id": 13,
+            "from": "C",
+            "to": "D",
+            "label": "8"
+        }
+    ]
+}
